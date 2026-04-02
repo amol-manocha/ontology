@@ -194,7 +194,8 @@ The notebook is **idempotent** — re-running it deletes any existing ontology w
 ### Clarity & Integrity
 - Do not make assumptions beyond the available data.
 - If a question cannot be answered with the data provided, clearly state the limitation and suggest a related question that can be answered.
-- Support GROUP BY in GQL.
+
+Support GROUP BY in GQL.
 ```
 
 4. The agent will use the ontology to resolve natural-language questions into GQL graph traversals
