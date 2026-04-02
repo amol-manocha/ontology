@@ -179,12 +179,16 @@ Once the agent is configured, try these sample questions:
 
 ## Interactive Visualization
 
-Open [visualization/auto-ontology.html](visualization/auto-ontology.html) in a browser to explore the ontology graph interactively:
+Before diving into a live demo, use [visualization/auto-ontology.html](visualization/auto-ontology.html) as a **client-facing walkthrough** to communicate the value of an ontology-backed approach. Open it in any browser — no dependencies or login required — to illustrate how the auto claims domain is modeled, how entities relate to each other, and why this semantic foundation enables more accurate AI agents.
 
-- Click any **entity node** to see its properties, data types, and relationships
-- Click any **relationship edge** to see key bindings and contextualization details
-- Drag nodes to rearrange the layout
-- Colored by domain group: Parties, Policy & Coverage, Claims Lifecycle, Service Providers
+Use it to:
+
+- **Explain the business case** — Show stakeholders how an ontology bridges the gap between raw database tables and natural-language questions, and why that matters for accuracy and governance
+- **Walk through the domain model** — Click any entity node to inspect its properties, data types, and connected relationships; click any relationship edge to see the underlying key bindings and contextualization details
+- **Demonstrate multi-hop reasoning** — Highlight how the agent traverses defined relationships (e.g., Customer → Policy → Claim → Payment) rather than guessing SQL join paths
+- **Tailor the conversation** — Drag nodes to rearrange the layout and focus on the entities most relevant to your audience; entities are color-coded by domain group (Parties, Policy & Coverage, Claims Lifecycle, Service Providers)
+
+This visualization pairs well with the [research report](docs/ontology-backed-ai-agents-report.md) for audiences that want to see the benchmarks behind the approach before seeing it in action.
 
 ---
 
