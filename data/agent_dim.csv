@@ -1,0 +1,6 @@
+agent_id,first_name,last_name,email,phone,agency_name,license_number,region
+AG001,James,Foster,james.foster@insureplus.com,404-555-1001,InsurePlus Southeast,IL-SE-0045,Southeast
+AG002,Patricia,Moore,patricia.moore@premiercoverage.com,617-555-1002,Premier Coverage Group,IL-NE-0112,Northeast
+AG003,Kevin,Walsh,kevin.walsh@midlandsins.com,312-555-1003,Midlands Insurance Co,IL-MW-0289,Midwest
+AG004,Sandra,Chen,sandra.chen@pacificins.com,415-555-1004,Pacific Insurance Partners,IL-WE-0367,West
+AG005,Brian,Taylor,brian.taylor@sunstateins.com,214-555-1005,SunState Insurance,IL-SW-0501,Southwest

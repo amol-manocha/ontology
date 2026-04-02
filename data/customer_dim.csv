@@ -1,0 +1,11 @@
+customer_id,first_name,last_name,date_of_birth,address,city,state,zip,phone,email,driver_license_number,customer_since
+C001,David,Kim,1985-03-12,142 Maple Street,Atlanta,GA,30301,404-555-0123,david.kim@email.com,GA8532901,2018-06-15
+C002,Sarah,Johnson,1979-07-28,889 Oak Avenue,Boston,MA,02101,617-555-0187,sarah.johnson@email.com,MA4219876,2016-02-10
+C003,Michael,Chen,1991-11-05,2201 Tech Blvd,San Francisco,CA,94105,415-555-0234,michael.chen@email.com,CA7741209,2021-08-22
+C004,Emily,Rodriguez,1994-04-19,356 Elm Street,Chicago,IL,60601,312-555-0156,emily.rodriguez@email.com,IL5523847,2022-01-14
+C005,Linda,Thompson,1968-09-30,724 Pine Road,Dallas,TX,75201,214-555-0299,linda.thompson@email.com,TX3312567,2014-05-20
+C006,Robert,Martinez,1982-12-07,1105 Birch Lane,Miami,FL,33101,305-555-0341,robert.martinez@email.com,FL6628104,2019-11-03
+C007,Jennifer,Lee,1988-06-14,407 Cedar Drive,Seattle,WA,98101,206-555-0178,jennifer.lee@email.com,WA9912345,2020-04-29
+C008,Thomas,Wilson,1975-02-22,88 Walnut Circle,Denver,CO,80201,720-555-0412,thomas.wilson@email.com,CO2234789,2015-09-08
+C009,Amanda,Davis,1997-08-11,513 Spruce Way,Phoenix,AZ,85001,602-555-0523,amanda.davis@email.com,AZ7789012,2023-03-17
+C010,Christopher,Brown,1983-05-25,292 Willow Court,Nashville,TN,37201,615-555-0634,christopher.brown@email.com,TN4456231,2017-07-12

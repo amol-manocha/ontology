@@ -1,0 +1,6 @@
+adjuster_id,first_name,last_name,email,phone,license_number,region,specialization
+ADJ001,Marcus,Torres,marcus.torres@claimspro.com,404-555-2001,CL-GA-1045,Southeast,Collision & Liability
+ADJ002,Rachel,Kim,rachel.kim@claimspro.com,617-555-2002,CL-MA-2187,Northeast,High-Value Claims
+ADJ003,Steven,Nguyen,steven.nguyen@claimspro.com,312-555-2003,CL-IL-3302,Midwest,Comprehensive
+ADJ004,Lisa,Patel,lisa.patel@claimspro.com,415-555-2004,CL-CA-4451,West,Total Loss
+ADJ005,Carlos,Rivera,carlos.rivera@claimspro.com,214-555-2005,CL-TX-5623,Southwest,Collision

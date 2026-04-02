@@ -1,0 +1,10 @@
+payment_id,claim_id,payment_date,amount,payment_type,payment_method,payee_name,payment_status
+PAY001,CLM001,2023-07-28,12000.00,Final Settlement,ACH Transfer,David Kim,Completed
+PAY002,CLM002,2023-09-18,5700.00,Final Settlement,ACH Transfer,David Kim,Completed
+PAY003,CLM004,2023-04-22,15000.00,Advance Payment,ACH Transfer,Sarah Johnson,Completed
+PAY004,CLM004,2023-05-30,12000.00,Final Settlement,Check,Sarah Johnson,Completed
+PAY005,CLM005,2023-11-05,1200.00,Final Settlement,ACH Transfer,Sarah Johnson,Completed
+PAY006,CLM007,2024-03-28,4300.00,Final Settlement,ACH Transfer,Emily Rodriguez,Completed
+PAY007,CLM008,2023-11-30,7750.00,Final Settlement,Check,Linda Thompson,Completed
+PAY008,CLM011,2023-08-20,20000.00,Total Loss Settlement,Wire Transfer,Thomas Wilson,Completed
+PAY009,CLM012,2024-01-05,5100.00,Final Settlement,Check,Christopher Brown,Completed

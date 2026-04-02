@@ -1,0 +1,7 @@
+shop_id,shop_name,address,city,state,phone,license_number,network_tier,certified
+RS001,Premier Auto Body,550 Industrial Pkwy,Atlanta,GA,404-555-3001,RS-GA-0091,Tier 1,TRUE
+RS002,Metro Collision Center,1200 Service Road,Boston,MA,617-555-3002,RS-MA-0243,Tier 1,TRUE
+RS003,QuickFix Auto Repair,780 Mechanic Blvd,Chicago,IL,312-555-3003,RS-IL-0387,Tier 2,TRUE
+RS004,Prestige Body Works,3300 Luxury Lane,San Francisco,CA,415-555-3004,RS-CA-0512,Tier 1,TRUE
+RS005,Citywide Auto Repair,2200 Central Ave,Miami,FL,305-555-3005,RS-FL-0634,Tier 2,FALSE
+RS006,Eastside Collision,890 Harbor View,Seattle,WA,206-555-3006,RS-WA-0758,Tier 2,TRUE

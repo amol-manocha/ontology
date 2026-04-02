@@ -1,0 +1,13 @@
+incident_id,incident_date,incident_type,location,description,weather_conditions,police_report_number,at_fault_party
+INC001,2023-07-14,Rear-End Collision,"I-285 N, Atlanta GA","Customer's vehicle was rear-ended by another driver traveling at highway speed",Clear,PR-ATL-2023-4521,Third Party
+INC002,2023-09-02,Hail Damage,"142 Maple Street, Atlanta GA","Vehicle sustained significant hail damage during severe afternoon storm",Severe Storm,N/A,No Fault
+INC003,2024-01-20,Parking Lot Collision,"Perimeter Mall Parking Lot, Atlanta GA","Minor collision with unoccupied vehicle while reversing from parking space",Clear,PR-ATL-2024-0872,Disputed
+INC004,2023-04-11,Broadside Collision,"Commonwealth Ave & Beacon St, Boston MA","Vehicle struck broadside by driver who ran a red light at full speed",Clear,PR-BOS-2023-2234,Third Party
+INC005,2023-10-29,Windshield Damage,"I-90 E, Boston MA","Road debris struck and cracked windshield beyond repair",Clear,N/A,No Fault
+INC006,2024-02-08,Multi-Vehicle Collision,"US-101 S, San Francisco CA","Customer's Tesla struck at high speed during multi-vehicle pile-up in heavy rain",Rain,PR-SFO-2024-0341,Third Party
+INC007,2024-03-15,Minor Rear-End,"N Michigan Ave, Chicago IL","Minor fender bender at traffic light; customer was following too closely",Clear,PR-CHI-2024-1102,Insured
+INC008,2023-11-18,Animal Collision,"TX-75 S, Garland TX","Vehicle struck a deer crossing the road at night; significant front-end damage",Clear,N/A,No Fault
+INC009,2024-01-05,Vandalism,"1105 Birch Lane, Miami FL","Vehicle paint keyed across both driver-side doors while parked overnight",Clear,PR-MIA-2024-0124,Unknown
+INC010,2024-03-28,Rear-End Collision,"SR-99 N, Seattle WA","Vehicle rear-ended while stopped in active construction zone",Overcast,PR-SEA-2024-1876,Third Party
+INC011,2023-08-03,Fire Damage,"88 Walnut Circle, Denver CO","Engine fire erupted while vehicle was parked in residential garage; total loss",Clear,PR-DEN-2023-3842,No Fault
+INC012,2023-12-19,Side-Swipe Collision,"I-440 E, Nashville TN","Side-swipe incident while customer was changing lanes without signaling",Clear,PR-NSH-2023-5511,Insured
