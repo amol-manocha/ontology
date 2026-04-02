@@ -224,24 +224,3 @@ SQL schemas encode structure but not meaning. Column names like `cust_rev_ytd_ad
 
 The ontology is the bridge between **human intent** and **table-level data**.
 
----
-
-## References
-
-1. [Sequeda, Allemang & Jacob — Benchmark: Role of Knowledge Graphs on LLM Accuracy](https://arxiv.org/abs/2311.07509) (2023)
-2. [Allemang & Sequeda — Ontologies to the Rescue!](https://arxiv.org/html/2405.11706v1) (2024)
-3. [Microsoft Fabric Blog — Data Agents at Ignite 2025](https://blog.fabric.microsoft.com/en-us/blog/whats-new-for-fabric-data-agents-at-ignite-2025-unlocking-deeper-data-reasoning-and-seamless-ai-interoperability/)
-4. [Microsoft Docs — Fabric Ontology Overview](https://learn.microsoft.com/en-us/fabric/iq/ontology/overview)
-5. [Vestergaard — Exploring Fabric Ontology](https://t-sql.dk/2026/03/exploring-the-fabric-ontology/)
-6. [Xu et al. — KG-Enhanced RAG at LinkedIn](https://arxiv.org/html/2404.17723v1) (2024)
-
----
-
-## License
-
-This project is provided as a sample for educational and demonstration purposes.
-
-## Built With
-
-- [Microsoft Fabric](https://www.microsoft.com/en/microsoft-fabric) — Lakehouse, Ontology, Data Agents
-- [GitHub Copilot Cowork](https://github.com/features/copilot) — All content generated via Copilot
