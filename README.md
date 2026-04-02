@@ -38,6 +38,7 @@ The ontology gives the agent a "dictionary" of how business concepts relate, whi
 │   └── repair_shop_dim.csv  # Certified repair shops
 │
 ├── notebooks/
+│   ├── create_lakehouse_tables.ipynb      # Fabric notebook — loads CSVs into managed Delta tables
 │   └── autoclaims_ontology_setup.ipynb   # Fabric notebook — creates the full ontology via REST API
 │
 ├── docs/
@@ -128,15 +129,12 @@ The ontology models the full **auto insurance claims lifecycle** with 10 entity 
 
 ### Step 1 — Load Sample Data
 
-Upload the CSV files from [data/](data/) into your Fabric Lakehouse as managed tables. You can drag-and-drop them in the Lakehouse explorer or use Spark:
+1. Upload the CSV files from [data/](data/) into your Fabric Lakehouse **Files/** area (drag-and-drop in the Lakehouse explorer)
+2. Open [notebooks/create_lakehouse_tables.ipynb](notebooks/create_lakehouse_tables.ipynb) in your Fabric workspace
+3. Set `LAKEHOUSE_NAME` in the configuration cell to match your Lakehouse name
+4. Run all cells — the notebook discovers the CSVs, creates managed Delta tables with explicit schemas, and verifies row counts
 
-```python
-for table in ["customer_dim", "policy_dim", "vehicle_dim", "agent_dim",
-              "adjuster_dim", "coverage_dim", "incident_dim",
-              "claims_fact", "payments_fact", "repair_shop_dim"]:
-    df = spark.read.option("header", True).option("inferSchema", True).csv(f"Files/{table}.csv")
-    df.write.mode("overwrite").saveAsTable(table)
-```
+The notebook is **idempotent** — re-running it overwrites existing tables.
 
 ### Step 2 — Create the Ontology
 
@@ -226,22 +224,5 @@ The ontology is the bridge between **human intent** and **table-level data**.
 
 ---
 
-## References
 
-1. [Sequeda, Allemang & Jacob — Benchmark: Role of Knowledge Graphs on LLM Accuracy](https://arxiv.org/abs/2311.07509) (2023)
-2. [Allemang & Sequeda — Ontologies to the Rescue!](https://arxiv.org/html/2405.11706v1) (2024)
-3. [Microsoft Fabric Blog — Data Agents at Ignite 2025](https://blog.fabric.microsoft.com/en-us/blog/whats-new-for-fabric-data-agents-at-ignite-2025-unlocking-deeper-data-reasoning-and-seamless-ai-interoperability/)
-4. [Microsoft Docs — Fabric Ontology Overview](https://learn.microsoft.com/en-us/fabric/iq/ontology/overview)
-5. [Vestergaard — Exploring Fabric Ontology](https://t-sql.dk/2026/03/exploring-the-fabric-ontology/)
-6. [Xu et al. — KG-Enhanced RAG at LinkedIn](https://arxiv.org/html/2404.17723v1) (2024)
 
----
-
-## License
-
-This project is provided as a sample for educational and demonstration purposes.
-
-## Built With
-
-- [Microsoft Fabric](https://www.microsoft.com/en/microsoft-fabric) — Lakehouse, Ontology, Data Agents
-- [GitHub Copilot Cowork](https://github.com/features/copilot) — All content generated via Copilot
