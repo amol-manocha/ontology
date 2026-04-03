@@ -121,7 +121,7 @@ The ontology models the full **auto insurance claims lifecycle** with 10 entity 
 
 ### Prerequisites
 
-- A **Microsoft Fabric** workspace with capacity (F2 or higher)
+- A **Microsoft Fabric** workspace with capacity (F16 or higher)
 - A **Lakehouse** created in the workspace
 - Fabric **Ontology** feature enabled (preview)
 
