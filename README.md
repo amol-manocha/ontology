@@ -151,7 +151,10 @@ Run all cells. The notebook:
 4. Creates relationship types with contextualizations (FK bindings)
 5. Submits the full ontology definition via `POST /v1/workspaces/{id}/ontologies`
 
-The notebook is **idempotent** — re-running it deletes any existing ontology with the same name before recreating it.
+- The notebook is **idempotent** — re-running it deletes any existing ontology with the same name before recreating it.
+- Please note that after ontology is created it can take a few minutes for the underlying graph DB to load the data.
+You can use Montior app to see its progress.
+
 
 ### Step 3 — Build a Data Agent
 
