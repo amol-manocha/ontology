@@ -265,5 +265,7 @@ The ontology is the bridge between **human intent** and **table-level data**.
 
 ---
 
+Microsoft Fabric Ontology is currently in preview. Features and capability may change before general availability.
+
 
 
