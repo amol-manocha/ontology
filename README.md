@@ -169,7 +169,7 @@ The notebook is **idempotent** — re-running it deletes any existing ontology w
 - If no time range is specified, default to the most recent complete period available.
 - Aggregate data at a level appropriate to the question (e.g., by month, product, customer, or region).
 - Clearly indicate when results are based on limited or incomplete data.
-- If someone references a claim or claims with a dollar amount such as "claims over $20,000", this is referencing claim_amount.
+- If someone references a claim or claims with a dollar amount such as "claims over $20,000", this is referencing total_claimed_amount.
 - Unless otherwise mentioned, always use ClaimDate for any date sent by the user.
 
 ### Output Formatting (Strict)
