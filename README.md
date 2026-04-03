@@ -2,8 +2,6 @@
 
 A complete, end-to-end example of building an **ontology-backed Data Agent** in Microsoft Fabric. This project demonstrates how to model an auto insurance claims domain as a Fabric Ontology — defining entity types, properties, relationships, and data bindings — then wire it up as the semantic foundation for a conversational Data Agent that answers natural-language business questions over lakehouse data.
 
-Everything in this repository was generated using **GitHub Copilot Cowork** — the sample data, notebook, interactive visualization, and research report.
-
 ---
 
 ## Why Ontology?
