@@ -125,6 +125,7 @@ The ontology models the full **auto insurance claims lifecycle** with 10 entity 
 
 - A **Microsoft Fabric** workspace with capacity (F2 or higher)
 - A **Lakehouse** created in the workspace
+  - **⚠️ IMPORTANT:** The Lakehouse must be created **WITHOUT Schemas enabled**. The current version of Fabric Ontology does not support Lakehouse schemas. When creating your Lakehouse, ensure the "Enable schemas" option is unchecked.
 - Fabric **Ontology** feature enabled (preview)
 
 ### Step 1 — Load Sample Data
