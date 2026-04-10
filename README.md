@@ -2,8 +2,6 @@
 
 A complete, end-to-end example of building an **ontology-backed Data Agent** in Microsoft Fabric. This project demonstrates how to model an auto insurance claims domain as a Fabric Ontology — defining entity types, properties, relationships, and data bindings — then wire it up as the semantic foundation for a conversational Data Agent that answers natural-language business questions over lakehouse data.
 
-Everything in this repository was generated using **GitHub Copilot Cowork** — the sample data, notebook, interactive visualization, and research report.
-
 ---
 
 ## Why Ontology?
@@ -123,7 +121,7 @@ The ontology models the full **auto insurance claims lifecycle** with 10 entity 
 
 ### Prerequisites
 
-- A **Microsoft Fabric** workspace with capacity (F2 or higher)
+- A **Microsoft Fabric** workspace with capacity (F16 or higher)
 - A **Lakehouse** created in the workspace
   - **⚠️ IMPORTANT:** The Lakehouse must be created **WITHOUT Schemas enabled**. The current version of Fabric Ontology does not support Lakehouse schemas. When creating your Lakehouse, ensure the "Enable schemas" option is unchecked.
 - Fabric **Ontology** feature enabled (preview)
@@ -154,7 +152,10 @@ Run all cells. The notebook:
 4. Creates relationship types with contextualizations (FK bindings)
 5. Submits the full ontology definition via `POST /v1/workspaces/{id}/ontologies`
 
-The notebook is **idempotent** — re-running it deletes any existing ontology with the same name before recreating it.
+- The notebook is **idempotent** — re-running it deletes any existing ontology with the same name before recreating it.
+- Please note that after ontology is created it can take a few minutes for the underlying graph DB to load the data.
+You can use Montior app to see its progress.
+
 
 ### Step 3 — Build a Data Agent
 
@@ -172,7 +173,7 @@ The notebook is **idempotent** — re-running it deletes any existing ontology w
 - If no time range is specified, default to the most recent complete period available.
 - Aggregate data at a level appropriate to the question (e.g., by month, product, customer, or region).
 - Clearly indicate when results are based on limited or incomplete data.
-- If someone references a claim or claims with a dollar amount such as "claims over $20,000", this is referencing claim_amount.
+- If someone references a claim or claims with a dollar amount such as "claims over $20,000", this is referencing total_claimed_amount.
 - Unless otherwise mentioned, always use ClaimDate for any date sent by the user.
 
 ### Output Formatting (Strict)
@@ -195,7 +196,8 @@ The notebook is **idempotent** — re-running it deletes any existing ontology w
 ### Clarity & Integrity
 - Do not make assumptions beyond the available data.
 - If a question cannot be answered with the data provided, clearly state the limitation and suggest a related question that can be answered.
-- Support GROUP BY in GQL.
+
+Support GROUP BY in GQL
 ```
 
 4. The agent will use the ontology to resolve natural-language questions into GQL graph traversals
@@ -266,6 +268,8 @@ SQL schemas encode structure but not meaning. Column names like `cust_rev_ytd_ad
 The ontology is the bridge between **human intent** and **table-level data**.
 
 ---
+
+Microsoft Fabric Ontology is currently in preview. Features and capability may change before general availability.
 
 
 
