@@ -207,12 +207,14 @@ Support GROUP BY in GQL
 Once the agent is configured, try these sample questions:
 
 **1-hop queries** (single relationship traversal):
+- "what are the emerging regions for adjusters based on seasonality of claims?"
 - "Who is the adjuster on claim CLM004?"
 - "What coverage types does Policy POL003 include?"
 - "Show me all claims for customer David Kim"
 
 **2-hop queries** (multi-relationship traversal):
 - "What vehicles are covered under policies managed by agent Laura Chen?"
+- "What are the emerging regions for adjusters based on seasonality of claims by incident type?"
 - "Find all payments for claims involving 2023 Honda CR-Vs"
 - "Which repair shops handled claims from customers in Atlanta?"
 
